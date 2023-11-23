@@ -1,0 +1,11 @@
+{
+	"SiteName": "Book Blogs",
+	"SiteUrl": "www.xyz.com",
+	"Database": {
+		"Name": "book",
+		"Host": "localhost",
+		"Port": 3306,
+		"Username": "root",
+		"Password": "root"
+	}
+}

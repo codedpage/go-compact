@@ -4,24 +4,29 @@ import (
 	"fmt"
 )
 
-func main() {
+func largest() {
 	nums := []int{20, 10, 50, 30, 40}
-	max := nums[0]
+	first := nums[0]
 	for _, v := range nums {
-		if v > max {
-			max = v
+		if v > first {
+			first = v
 		}
 	}
-	fmt.Println("largest = ", max)
+	fmt.Println("largest = ", first)
 }
 
-func main2() {
+func smallest() {
 	nums := []int{20, 10, 50, 30, 40}
-	min := nums[0]
+	first := nums[0]
 	for _, v := range nums {
-		if v < min {
-			min = v
+		if v < first {
+			first = v
 		}
 	}
-	fmt.Println("smallest = ", min)
+	fmt.Println("smallest = ", first)
+}
+
+func main() {
+	largest()
+	smallest()
 }

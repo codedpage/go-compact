@@ -8,7 +8,7 @@ import (
 func main() {
 	var a, b string
 
-	// Prompt the user
+	// Prompt the user //
 	fmt.Print("Enter your name: ")
 
 	// Read input into the variable

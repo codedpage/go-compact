@@ -11,7 +11,7 @@ var db *sql.DB
 
 func init() {
 	//tmpDB, err := sql.Open("postgres", "user=postgres password=postgres dbname=dev sslmode=disable")
-	tmpDB, err := sql.Open("mysql", "root:@tcp(localhost:3307)/test")
+	tmpDB, err := sql.Open("mysql", "root:root@tcp(localhost:3306)/mysql")
 	logOnErr(err)
 	db = tmpDB
 	//	defer db.Close()

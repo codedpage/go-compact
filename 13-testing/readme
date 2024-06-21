@@ -1,0 +1,18 @@
+#In same folder
+ - Write the test cases in a_test.go, b_test.go, c_test.go like files
+ - go test (run the all test cases)
+ - go test -run TestAdd (run a single test case)
+ - go test -cover
+ - go test -coverprofile=c.out
+ - go tool cover -html="c.out"
+ - go tool cover -html=c.out -o coverage.html
+
+#At main.go level
+ - go test -cover ./...      
+ - go test -coverprofile=c.out ./...
+ - go tool cover -html="c.out"
+
+t.Errorf(format, args...): Reports a test failure with an error message.
+t.Fatalf(format, args...): Reports a test failure and stops test execution.
+t.Log(args...): Logs additional information about the test.
+ref => https://medium.com/@nidhigh/unit-testing-made-easy-in-golang-6e7eac4c017f

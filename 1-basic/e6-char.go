@@ -7,7 +7,7 @@ func main() {
 	fmt.Printf("%c\n", 8377)
 	for r := 'A'; r <= 'z'; r++ {
 		//fmt.Println(r, string(r))                            // 65 A
-		fmt.Printf("%T %v %c %b %o %x \n", r, r, r, r, r, r) //int32 65 A 1000001 101 4166 B
+		fmt.Printf("%T %v %c %b %o %x \n", r, r, r, r, r, r) //int32 65 A 1000001 101 41
 	}
 
 }

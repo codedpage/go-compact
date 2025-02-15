@@ -30,7 +30,7 @@ func main() {
 	//doGreet(c)
 	//doGreetManyTimes(c)
 	doLongGreet(c)
-	//doGreetEveryone(c)
+	doGreetEveryone(c)
 
 	//doGreetWithDeadline(c, 5*time.Second)
 	//doGreetWithDeadline(c, 1*time.Second)

@@ -18,5 +18,5 @@ func hello(ch chan int) {
 	for i := 1; i <= 5; i++ {
 		ch <- i
 	}
-	close(ch)
+	close(ch) //writing stopped : CBR -> Close before range
 }

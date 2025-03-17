@@ -1,6 +1,8 @@
 package myutil
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestCheck(t *testing.T) {
 
@@ -11,4 +13,5 @@ func TestCheck(t *testing.T) {
 	if result != true {
 		t.Errorf("Result was incorrect, got: %t", result)
 	}
+
 }

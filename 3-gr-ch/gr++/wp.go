@@ -2,7 +2,6 @@ package main
 
 import (
 	. "fmt"
-	"time"
 )
 
 func main() {
@@ -20,8 +19,6 @@ func main() {
 			Println(v)
 		}
 	}
-
-	time.Sleep(1000 * time.Millisecond)
 
 }
 

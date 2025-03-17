@@ -27,7 +27,7 @@ func main() {
 	for j := 1; j <= numJobs; j++ {
 		jobs <- j
 	}
-	close(jobs)
+	close(jobs) //cbr : Close before range
 
 	for a := 1; a <= numJobs; a++ {
 		<-results

@@ -9,10 +9,10 @@ import (
 )
 
 func main() {
-	unzip("done.zip", "done/")
+	unzip2("done.zip", "done/")
 }
 
-func unzip(archive, target string) {
+func unzip2(archive, target string) {
 	zipReader, _ := zip.OpenReader(archive)
 	for _, file := range zipReader.Reader.File {
 

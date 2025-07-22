@@ -40,6 +40,8 @@ func main() {
 	var users Users
 	xml.Unmarshal(byteValue, &users)
 
+	fmt.Println(string(byteValue))
+
 	for _, v := range users.Users {
 		fmt.Println(v.Name, v.Type, v.Social.Facebook, v.Social.Twitter, v.Social.Youtube)
 	}

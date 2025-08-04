@@ -2,13 +2,18 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"time"
 )
 
 func main() {
 	c := make(chan interface{})
 
-	go table(12, c)
+	rand.Seed(time.Now().UnixNano())
+	randomNumber := rand.Intn(19) + 2
+
+	go table(randomNumber, c)
+	//go table(12, c)
 
 	for val := range c {
 		fmt.Println(val)

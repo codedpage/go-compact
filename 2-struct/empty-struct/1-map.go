@@ -1,6 +1,7 @@
 /*
 Understanding Empty Struct (struct{}) in Golang with Examples
-An empty struct (struct{}) is a struct type that has no fields. It is useful when you need to define a type but don’t need to store any data.
+An empty struct (struct{}) is a struct type that has no fields.
+It is useful when you need to define a type but don’t need to store any data.
 
 🔹 Key Features of struct{}
 Zero Memory Overhead: It occupies 0 bytes in memory.

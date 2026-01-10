@@ -30,3 +30,6 @@ func hello1(ch chan int) {
 	time.Sleep(1 * time.Millisecond)
 	fmt.Println(<-ch)
 }
+
+//2-struct/interface/i3-switch.go
+// closer

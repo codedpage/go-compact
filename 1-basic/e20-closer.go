@@ -1,6 +1,9 @@
 package main
 
-import . "fmt"
+import (
+	"fmt"
+	. "fmt"
+)
 
 //Closures : a anonymous functions which can access the variables defined outside of function
 
@@ -21,8 +24,11 @@ func main() {
 
 func intSeq() func() int {
 	i := 0
+	fmt.Println("1st call")
 	return func() int {
 		i++
+
+		fmt.Println("2nd and onward call")
 		return i
 	}
 }

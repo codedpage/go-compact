@@ -8,7 +8,7 @@ import (
 )
 
 // once
-func main() {
+func main0() {
 
 	fmt.Print("Enter text: ")
 	input := bufio.NewScanner(os.Stdin)
@@ -36,7 +36,7 @@ func main1() {
 }
 
 // uses -2
-func main2() {
+func main() {
 	fmt.Printf("Enter the no: ")
 	input := bufio.NewScanner(os.Stdin)
 	c := make(chan int)

@@ -5,7 +5,8 @@ import (
 	"fmt"
 )
 
-// unbuffered : syncronous
+// buffered : asyncronous => BA
+// unbuffered : syncronous => US
 func main() {
 
 	fmt.Println("main")

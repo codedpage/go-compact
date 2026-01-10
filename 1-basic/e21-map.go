@@ -2,7 +2,7 @@ package main
 
 import . "fmt"
 
-func main() {
+func main0() {
 
 	a := map[string]int{
 		"xx": 10,
@@ -23,7 +23,7 @@ func main() {
 
 }
 
-func main1() {
+func main() {
 	var a map[string]int
 	a = make(map[string]int)
 	a["aa"] = 10

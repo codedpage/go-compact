@@ -12,6 +12,7 @@ Used for set-like behavior in maps (where only keys matter).
 Used for implementing methods without data (like dummy types).
 */
 
+// Used for set-like behavior in maps (where only keys matter).
 package main
 
 import "fmt"

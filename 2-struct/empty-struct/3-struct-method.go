@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Used for implementing methods without data (like dummy types).
+
 // Defining an empty struct
 type Logger struct{}
 

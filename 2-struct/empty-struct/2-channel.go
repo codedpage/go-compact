@@ -5,6 +5,8 @@ import (
 	"time"
 )
 
+// Used for signaling (e.g., in channels).
+
 func worker(done chan struct{}) {
 	fmt.Println("Working...")
 	time.Sleep(2 * time.Second) // Simulating work
